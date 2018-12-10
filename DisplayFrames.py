@@ -5,7 +5,7 @@ import time
 
 # globals
 outputDir    = 'frames'
-frameDelay   = 42       # the answer to everything
+frameDelay   =42       # the answer to everything
 
 # initialize frame count
 count = 0
@@ -42,7 +42,7 @@ while frame is not None:
     
     # get the next frame filename
     count += 1
-    frameFileName = "{}/grayscale_{:04d}.jpg".format(outputDir, count)
+    frameFileName = "{}/frame_{:04d}.jpg".format(outputDir, count)
 
     # Read the next frame file
     frame = cv2.imread(frameFileName)

@@ -15,6 +15,8 @@ def extractFrames(fileName, outputBuffer):
 
     # read first image
     success,image = vidcap.read()
+
+    Semaphore s = Semaphore(0)
     
     print("Reading frame {} {} ".format(count, success))
     while success:
