@@ -1,0 +1,1 @@
+for this assignment my collaborators were the use of the demo code, stackoverflow.com, youtube.com, github.com and the online text material to understand how to use semaphores for a producer consumer program
