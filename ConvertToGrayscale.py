@@ -24,7 +24,7 @@ while inputFrame is not None:
     outFileName = "{}/grayscale_{:04d}.jpg".format(outputDir, count)
 
     # write output file
-    cv2.imwrite(outFileName, grayscaleFrame)
+    cv2.imwrite(outFileName, inputFrame)
 
     count += 1
 
